@@ -1,0 +1,174 @@
+/*styles for outlanderspices files*/
+
+
+/*b4d28b*/
+
+/*testing*/
+/********************************************************************************/
+
+* {
+	/*outline: 2px dotted red; */
+}
+/*html generic*/
+/********************************************************************************/
+
+html, body {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+
+a,
+a:visited,
+a:hover {
+	color: #0f7037;;
+}
+
+
+/*classes page wide*/
+/********************************************************************************/
+.pagedBGContainer>* {
+	width: 930px;
+	margin: 0 auto;
+}
+
+
+/*header*/
+/********************************************************************************/
+.pageHeader {
+}
+
+/*.pageheader .h1de,*/
+.h1de {
+	/*margin: 0 inherit;*/
+	background: #FFF url('../images/headerspices.jpg') no-repeat bottom right;
+}
+/*.pageheader .h1de a,*/
+.h1de a {
+	text-indent: -9999px;
+	background: url('../images/logo.gif') no-repeat left center;
+	/*padding: 8px inherit;*/
+	height: 165px;
+	display: block;
+}
+
+
+
+/*nav*/
+/********************************************************************************/
+/*.pageHeader .pageNav,*/
+.pageNav {
+	margin-bottom: 0px;
+	width: 100%; /* to over-ride parent container bg width*/
+	background-color: #c2e396;
+
+}
+/*.pageHeader .pageNav ul,*/
+.pageNav ul {
+	padding: 4px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+/*.pageHeader .pageNav ul li, */
+/*.pageNav>li,*/
+.pageNav li{
+	display: inline-block;
+	width: 11%;
+	padding: 4px 0;
+	text-align: center;
+}
+/*.pageHeader .pageNav ul li a, */
+.pageNav a {
+	font-size: .9em;
+	/*color: green;*/
+	color: #0f7037;
+	text-shadow: 0px 0px 1px rgba(0, 100, 0, 0.4);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+
+/*content*/
+/********************************************************************************/
+
+	/*content header*/
+ .contentHeaderBanner {
+	background: #E3E0A6 url('../images/homespices.jpg');
+	background-size: cover;
+	padding-bottom: 45px;
+
+}
+ .contentHeader>*{
+ 	max-width: 320px;
+ }
+ .contentHeader h1{
+ 	font-size: 2.0em;
+ 	padding: 1em 0;
+ 	margin: 0;
+	color: #FFF;
+	text-shadow: 
+					1px 2px 1px rgba(0,0,0, 0.7),
+					1px 2px 1px rgba(0,0,0, 0.7);
+}
+.contentHeader .blurb {
+	color: #333;
+	font-size: .8em;
+	background-color: #FFF;
+	padding:12px;
+	border-radius: 3px;
+
+}
+
+.mainContentOuter {
+
+}
+.mainContentInner {
+}
+
+
+.inTheNewsArea,
+.featuredProductArea {
+	vertical-align: top;
+	display: inline-block;
+	width: 49%;
+}
+/*inTheNewsArea*/
+/********************************************************************************/
+.inTheNewsArea {
+	
+}
+.inTheNewsArea h3 a{
+	color: #0f7037;
+}
+
+/*featureProductArea */
+/********************************************************************************/
+.featuredProductArea {
+
+}
+/*.featureProductArea ul,*/
+.featuredProductList {
+	list-style: none;
+}
+.featuredProductList img,
+.featuredProductList p {
+	display: inline-block;
+}
+.featuredProductList p {
+	width: 80%;
+}
+
+footer {
+	color: #FBFAFF;
+	background-color: #0f7037;
+	padding: 20px;
+}
+
+
+
+
+/********************************************************************************/
+/********************************************************************************/
+/********************************************************************************/
